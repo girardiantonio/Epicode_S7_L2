@@ -1,0 +1,43 @@
+main {
+  background-color: bisque;
+  margin: 0 20em 0 20em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+input {
+  margin-bottom: 1em;
+  width: 20em;
+  font-size: 1em;
+}
+
+button {
+  display: block;
+  margin-bottom: 1em;
+  border-radius: 20px;
+  border: none;
+  height: 2em;
+  width: 15em;
+}
+
+#save {
+  background-color: green;
+}
+#load {
+  background-color: yellow;
+}
+#reset {
+  background-color: red;
+}
